@@ -16,5 +16,8 @@ data = pd.read_excel("/Users/rohanshenoy/Downloads/yahoo_data.xlsx")
 data['Date'] = pd.to_datetime(data['Date'])
 data=data.sort_values(by="Date",ascending=True)
 data.set_index("Date",inplace=True)
+
 print(data.head())
 
+
+print(data.info())
