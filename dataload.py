@@ -1,34 +1,42 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
-import os
-import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
-from sklearn.metrics import mean_squared_error
 
+# Function to load and preprocess data
+def load_data(file_path, target_col="Adj Close**", time_steps=50, test_size=0.2):
+    # Load dataset
+    data = pd.read_excel(file_path)
 
+    # Convert 'Date' to datetime and sort
+    data['Date'] = pd.to_datetime(data['Date'])
+    data = data.sort_values(by="Date", ascending=True)
+    data.set_index("Date", inplace=True)
 
-data = pd.read_excel("/Users/rohanshenoy/Downloads/yahoo_data.xlsx")
+    # Select target column
+    data = data[[target_col]]
 
-data['Date'] = pd.to_datetime(data['Date'])
-data=data.sort_values(by="Date",ascending=True)
-data.set_index("Date",inplace=True)
+    # Normalize data
+    scaler = MinMaxScaler(feature_range=(0, 1))
+    data_scaled = scaler.fit_transform(data)
 
-print(data.head())
-print(data.info())
+    # Create sequences
+    def create_sequences(data, time_steps):
+        X, y = [], []
+        for i in range(len(data) - time_steps):
+            X.append(data[i:i+time_steps])
+            y.append(data[i+time_steps])
+        return np.array(X), np.array(y)
 
-fig = plt.figure(figsize=(25,25))
-i=1
-for x in data.columns :
-    plt.subplot(2,3,i)
-    ax=sns.lineplot(data[x])
-    ax.set(xlabel=None)
-    plt.title(str(x), loc='center')
-    plt.xlabel(None)
-    plt.ylabel(None)
-    i+=1
-plt.show()
+    X, y = create_sequences(data_scaled, time_steps)
+
+    # Split into training and testing sets
+    split_idx = int(len(X) * (1 - test_size))
+    X_train, X_test = X[:split_idx], X[split_idx:]
+    y_train, y_test = y[:split_idx], y[split_idx:]
+
+    return X_train, X_test, y_train, y_test, scaler, data.index[-len(y_test):]
+
+# Run only if executed directly (not when imported)
+if __name__ == "__main__":
+    X_train, X_test, y_train, y_test, scaler, dates = load_data("yahoo_data.xlsx")
+    print(f"Train shape: {X_train.shape}, Test shape: {X_test.shape}")
