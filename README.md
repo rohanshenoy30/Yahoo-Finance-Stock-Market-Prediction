@@ -121,7 +121,6 @@ This project is **open-source** and available under the **MIT License**.
 👤 **Rohan Shenoy**  
 📧 Email: roshenoy30@gmail.com  
 🔗 GitHub: [rohanshenoy30](https://github.com/rohanshenoy30)  
-```
 
 ---
 
