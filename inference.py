@@ -9,7 +9,7 @@ from dataload import load_data
 wandb.init(project="yahoo-stock-lstm", name="LSTM-Inference")
 
 # Load dataset (without training it again)
-X_train, X_test, y_train, y_test, scaler, dates = load_data("yahoo_data.xlsx")
+X_train, X_test, y_train, y_test, scaler, dates = load_data("/Users/rohanshenoy/Downloads/yahoo_data.xlsx")
 
 # Load trained model
 model = load_model("lstm_model.h5")

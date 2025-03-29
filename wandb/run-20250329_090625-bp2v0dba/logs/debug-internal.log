@@ -1,0 +1,16 @@
+{"time":"2025-03-29T09:06:25.56955+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/logs/debug-core.log"}
+{"time":"2025-03-29T09:06:25.683416+05:30","level":"INFO","msg":"created new stream","id":"bp2v0dba"}
+{"time":"2025-03-29T09:06:25.683486+05:30","level":"INFO","msg":"stream: started","id":"bp2v0dba"}
+{"time":"2025-03-29T09:06:25.683557+05:30","level":"INFO","msg":"handler: started","stream_id":"bp2v0dba"}
+{"time":"2025-03-29T09:06:25.683783+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bp2v0dba"}
+{"time":"2025-03-29T09:06:25.683959+05:30","level":"INFO","msg":"sender: started","stream_id":"bp2v0dba"}
+{"time":"2025-03-29T09:06:26.50743+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-29T09:07:56.569056+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-29T09:07:56.571936+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-29T09:07:57.584618+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-LSTM-Training","runtime_seconds":15.325209458},{"desc":"updating run config","runtime_seconds":1.017514417},{"desc":"uploading history steps 19-20, console lines 80-82","runtime_seconds":0.018428541}],"total_operations":3}}
+{"time":"2025-03-29T09:08:02.605147+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-29T09:08:03.126035+05:30","level":"INFO","msg":"stream: closing","id":"bp2v0dba"}
+{"time":"2025-03-29T09:08:03.126232+05:30","level":"INFO","msg":"handler: closed","stream_id":"bp2v0dba"}
+{"time":"2025-03-29T09:08:03.126412+05:30","level":"INFO","msg":"sender: closed","stream_id":"bp2v0dba"}
+{"time":"2025-03-29T09:08:03.126469+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bp2v0dba"}
+{"time":"2025-03-29T09:08:03.126774+05:30","level":"INFO","msg":"stream: closed","id":"bp2v0dba"}

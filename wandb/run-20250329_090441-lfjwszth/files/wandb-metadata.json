@@ -1,0 +1,16 @@
+{
+  "os": "macOS-15.2-arm64-arm-64bit",
+  "python": "CPython 3.11.5",
+  "startedAt": "2025-03-29T03:34:41.549616Z",
+  "program": "/Users/rohanshenoy/Desktop/src/train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "https://github.com/rohanshenoy30/Yahoo-Finance-Stock-Market-Prediction.git",
+    "commit": "71d792e96abc231d1fde948ce58a81f3f21dd023"
+  },
+  "email": "roshenoy30@gmail.com",
+  "root": "/Users/rohanshenoy/Desktop/src",
+  "host": "Rohans-MacBook-Air.local",
+  "executable": "/Users/rohanshenoy/anaconda3/bin/python",
+  "codePathLocal": "train.py"
+}

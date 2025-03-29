@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/rohanshenoy/Desktop/src/train.py", line 18, in <module>
+    X_train, X_test, y_train, y_test, scaler, dates = load_data("yahoo_data.xlsx")
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohanshenoy/Desktop/src/dataload.py", line 8, in load_data
+    data = pd.read_excel(file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 478, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 1496, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/pandas/io/excel/_base.py", line 1371, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/pandas/io/common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'yahoo_data.xlsx'

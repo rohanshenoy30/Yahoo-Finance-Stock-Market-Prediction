@@ -1,0 +1,83 @@
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+[34m[1mwandb[0m: [33mWARNING[0m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/20
+31/31 [==============================] - 7s 168ms/step - loss: 0.0820 - val_loss: 0.0030
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.1s
+Epoch 2/20
+31/31 [==============================] - 4s 148ms/step - loss: 0.0058 - val_loss: 0.0023
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 3/20
+31/31 [==============================] - 1s 38ms/step - loss: 0.0023 - val_loss: 0.0024
+Epoch 4/20
+31/31 [==============================] - 4s 137ms/step - loss: 0.0019 - val_loss: 0.0022
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 5/20
+31/31 [==============================] - 5s 153ms/step - loss: 0.0018 - val_loss: 0.0022
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 6/20
+31/31 [==============================] - 5s 151ms/step - loss: 0.0018 - val_loss: 0.0021
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 7/20
+31/31 [==============================] - 4s 142ms/step - loss: 0.0017 - val_loss: 0.0020
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 8/20
+31/31 [==============================] - 6s 190ms/step - loss: 0.0017 - val_loss: 0.0020
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 9/20
+31/31 [==============================] - 1s 27ms/step - loss: 0.0016 - val_loss: 0.0024
+Epoch 10/20
+31/31 [==============================] - 5s 156ms/step - loss: 0.0016 - val_loss: 0.0019
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 11/20
+31/31 [==============================] - 1s 34ms/step - loss: 0.0015 - val_loss: 0.0021
+Epoch 12/20
+31/31 [==============================] - 6s 207ms/step - loss: 0.0016 - val_loss: 0.0016
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.1s
+Epoch 13/20
+31/31 [==============================] - 6s 198ms/step - loss: 0.0014 - val_loss: 0.0016
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 14/20
+31/31 [==============================] - 5s 176ms/step - loss: 0.0013 - val_loss: 0.0015
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 15/20
+31/31 [==============================] - 1s 28ms/step - loss: 0.0013 - val_loss: 0.0016
+Epoch 16/20
+31/31 [==============================] - 4s 142ms/step - loss: 0.0013 - val_loss: 0.0014
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 17/20
+31/31 [==============================] - 1s 32ms/step - loss: 0.0013 - val_loss: 0.0016
+Epoch 18/20
+31/31 [==============================] - 1s 39ms/step - loss: 0.0013 - val_loss: 0.0017
+Epoch 19/20
+31/31 [==============================] - 7s 235ms/step - loss: 0.0011 - val_loss: 0.0013
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+[34m[1mwandb[0m: Adding directory to artifact (/Users/rohanshenoy/Desktop/src/wandb/run-20250329_090625-bp2v0dba/files/model-best)... Done. 0.0s
+Epoch 20/20
+31/31 [==============================] - 2s 64ms/step - loss: 0.0011 - val_loss: 0.0015
+/Users/rohanshenoy/anaconda3/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(

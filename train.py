@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import wandb
-from wandb.keras import WandbCallback
+from wandb.integration.keras import WandbCallback  
 from dataload import load_data
 from model import build_model
 
@@ -15,7 +15,7 @@ wandb.init(project="yahoo-stock-lstm", name="LSTM-Training", config={
 })
 
 # Load dataset
-X_train, X_test, y_train, y_test, scaler, dates = load_data("yahoo_data.xlsx")
+X_train, X_test, y_train, y_test, scaler, dates = load_data("/Users/rohanshenoy/Downloads/yahoo_data.xlsx")
 
 # Build model
 model = build_model()
