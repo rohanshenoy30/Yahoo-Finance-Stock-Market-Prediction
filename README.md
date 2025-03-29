@@ -66,7 +66,7 @@ python train.py
 ✔️ Save the trained model as `lstm_model.h5`  
 ✔️ Log metrics to **W&B Training Dashboard**  
 
-🔗 **Training Log:** [View Here](https://wandb.ai/roshenoy30-manipal-institute-of-computer-education/yahoo-stock-lstm/runs/bp2v0dba?nw=nwuserroshenoy30)  
+🔗 **My Training Logs:** [View Here](https://wandb.ai/roshenoy30-manipal-institute-of-computer-education/yahoo-stock-lstm/runs/bp2v0dba?nw=nwuserroshenoy30)  
 
 ---
 
@@ -79,7 +79,7 @@ python inference.py
 ✔️ Make predictions on the test set  
 ✔️ Plot actual vs predicted stock prices  
 
-🔗 **Inference Log:** [View Here](https://wandb.ai/roshenoy30-manipal-institute-of-computer-education/yahoo-stock-lstm/runs/8nxuw0b0?nw=nwuserroshenoy30)  
+🔗 **My Inference Logs:** [View Here](https://wandb.ai/roshenoy30-manipal-institute-of-computer-education/yahoo-stock-lstm/runs/8nxuw0b0?nw=nwuserroshenoy30)  
 
 ---
 
@@ -118,16 +118,11 @@ This project is **open-source** and available under the **MIT License**.
 ---
 
 ## 📬 Contact  
-👤 **Your Name**  
-📧 Email: your.email@example.com  
-🔗 GitHub: [your-username](https://github.com/your-username)  
+👤 **Rohan Shenoy**  
+📧 Email: roshenoy30@gmail.com  
+🔗 GitHub: [rohanshenoy30](https://github.com/rohanshenoy30)  
 ```
 
 ---
 
-### **🚀 How to Use This**
-1. Copy & paste this into your **`README.md`** file.  
-2. Replace **`your-username`** and **`your.email@example.com`** with your details.  
-3. Replace **YOUR_WANDB_API_KEY** with your actual **Weights & Biases API Key**.  
 
-Now, your **README** is **ready for GitHub!** 🎯 Let me know if you need any modifications. 😊
