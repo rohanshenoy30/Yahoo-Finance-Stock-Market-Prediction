@@ -38,5 +38,5 @@ def load_data(file_path, target_col="Adj Close**", time_steps=50, test_size=0.2)
 
 # Run only if executed directly (not when imported)
 if __name__ == "__main__":
-    X_train, X_test, y_train, y_test, scaler, dates = load_data("yahoo_data.xlsx")
+    X_train, X_test, y_train, y_test, scaler, dates = load_data("/Users/rohanshenoy/Downloads/yahoo_data.xlsx")
     print(f"Train shape: {X_train.shape}, Test shape: {X_test.shape}")
